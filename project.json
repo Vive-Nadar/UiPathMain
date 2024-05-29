@@ -1,0 +1,112 @@
+{
+  "name": "UiBankTesting",
+  "projectId": "dc2a1b2a-d868-4464-9daf-78f1e760bfce",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "FeatSystems.DateTime.Activities": "[1.0.0]",
+    "UiPath.Excel.Activities": "[2.23.2-preview]",
+    "UiPath.Mail.Activities": "[1.22.1]",
+    "UiPath.System.Activities": "[24.2.0-preview]",
+    "UiPath.Testing.Activities": "[24.2.0-preview]",
+    "UiPath.UIAutomation.Activities": "[24.2.0-preview]",
+    "UiPath.WebAPI.Activities": "[1.20.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.2.1.0",
+  "projectVersion": "1.0.170245235",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "50aa5ead-e441-4fc9-aa45-fbe6041887f4",
+        "dataVariationFilePath": ".variations\\demo data.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "72a5e107-e930-41ea-a856-5e9d83c17ecf",
+        "dataVariationFilePath": ".variations\\demo data.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "06c9bf3b-0034-4582-84a1-448f22ef4297",
+        "dataVariationFilePath": ".variations\\demo data.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase2.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a516db1f-ba61-4913-bac2-7925c174774d",
+        "dataVariationFilePath": ".variations\\demo data.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "LoginTC.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9cc4f532-25e2-419a-8537-a04d90295d43",
+        "dataVariationFilePath": ".variations\\demo data.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TCaccount.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f5bf55b1-16c7-4d33-8028-54fb9f67c8bf",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_API.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "5f5f39bf-60a7-42f0-8957-e738e5285710",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
